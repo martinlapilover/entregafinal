@@ -1,0 +1,93 @@
+@import "mediaqueries.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+$titulo-header: 'Montserrat', sans-serif;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    font-family: $titulo-header;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*MENU*/
+#menu{
+    li> a{
+        font-size: 18px;
+        font-weight: bold;
+        color: #3f3f3f;
+        &:hover{
+            background-color: #1b2a4e;
+            color: white;
+        }
+        }
+        & form > button{
+            font-size: 18px;
+            font-weight: bold;
+        }
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 3;
+}
+@keyframes aparecer {
+    0% {
+    opacity: 0; }
+    100% {
+    opacity: 1; }
+}
+/*SLIDER IMÁGENES*/
+.carousel-inner {
+    max-height: 39rem;
+}
+/*SOBRE NOSOTROS*/
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+/*FONDO FORMULARIO */
+#bg-contacto {
+    position: relative;
+    bottom: 315px;
+}
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+    margin-top: 300px;
+}
+/*CONTENEDOR FORMULARIO */
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+}
+#titulo-formulario {
+    color: #3f3f3f;
+}
+/*SECCIÓN FOOTER */
+footer {
+    align-items: center !important;
+    background: #1b2a4e;
+    min-height: 100px;
+    margin-top: 10px;
+    & p{
+        color: #f3f3f3;
+        text-align: center;
+    }
+}
+div#iconos {
+    display: block;
+    & i {
+        font-size: 26px;
+        padding: 0 8;
+        color: #f3f3f3;
+    }
+}

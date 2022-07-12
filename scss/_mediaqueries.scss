@@ -1,0 +1,40 @@
+
+/*MEDIA QUERIES PANTALLA SM */
+@media (max-width:768px) {
+    #intro, #sobrenosotros {
+        width: 90% !important;
+        margin: auto;
+    }
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    #sobrenosotros p{
+        display: none;
+    }
+    .fila-mobile {
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto {
+        display: none;
+    }
+}
+
+/*MEDIA QUERIES PANTALLA XS*/
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    #bg-contacto {
+        display: none;
+    }
+}
+/*MEDIA QUERIES PANTALLA XL*/
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+}

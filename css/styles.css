@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/*MEDIA QUERIES PANTALLA SM */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@media (max-width: 768px) {
+  #intro, #sobrenosotros {
+    width: 90% !important;
+    margin: auto; }
+  #img-equipo {
+    max-height: 20rem !important;
+    width: 90%; }
+  #sobrenosotros p {
+    display: none; }
+  .fila-mobile {
+    width: 100% !important;
+    text-align: center; }
+  #bg-contacto {
+    display: none; } }
+
+/*MEDIA QUERIES PANTALLA XS*/
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  #bg-contacto {
+    display: none; } }
+
+/*MEDIA QUERIES PANTALLA XL*/
+@media (max-width: 1200px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto; } }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden; }
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold; }
+
+/*MENU*/
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f; }
+  #menu li > a:hover {
+    background-color: #1b2a4e;
+    color: white; }
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold; }
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 3; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*SLIDER IMÁGENES*/
+.carousel-inner {
+  max-height: 39rem; }
+
+/*SOBRE NOSOTROS*/
+#img-equipo {
+  max-height: 30rem !important;
+  width: 50%; }
+
+/*FONDO FORMULARIO */
+#bg-contacto {
+  position: relative;
+  bottom: 315px; }
+
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative;
+  margin-top: 300px; }
+
+/*CONTENEDOR FORMULARIO */
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px; }
+
+#titulo-formulario {
+  color: #3f3f3f; }
+
+/*SECCIÓN FOOTER */
+footer {
+  align-items: center !important;
+  background: #1b2a4e;
+  min-height: 100px;
+  margin-top: 10px; }
+  footer p {
+    color: #f3f3f3;
+    text-align: center; }
+
+div#iconos {
+  display: block; }
+  div#iconos i {
+    font-size: 26px;
+    padding: 0 8;
+    color: #f3f3f3; }
