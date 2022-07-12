@@ -7,3 +7,4 @@ se repita ningún H1 y sea coherente con el contenido, además de agregar descri
 Traté de aplicar un nesting prolijo en SCSS, utilicé & como referencia a selectores externos e hice un archivo separado para los mediaqueries que llamé con un @import en mi hoja
 de estilos. (cabe aclarar que en un proyecto más grande haría más archivos SCSS en caso de tener un maqueteado más basado en CSS en lugar de Bootstrap).
 Agregué un @import de otra fuente para poder ejemplificar una variable en el header.
+Adjunto además el wireframe realizado en clase (no lo solicita el desafío pero los tutores han dicho de agregarlo) y mi presupuesto.
